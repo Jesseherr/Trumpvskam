@@ -1,1 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red vs Blue Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+<div class="container">
+    <!-- Red Side (Trump) -->
+    <div class="side red" id="redSide" onclick="moveToBlue()">
+        <span class="points" id="redPoints">771</span>
+        <img src="trump.jpg" alt="Trump" class="image">
+        <img src="galaxy.jpg" alt="Galaxy" class="side-image">
+    </div>
+
+    <!-- Blue Side (Kamala Harris) -->
+    <div class="side blue" id="blueSide" onclick="moveToRed()">
+        <span class="points" id="bluePoints">771</span>
+        <img src="kamala.jpg" alt="Kamala Harris" class="image">
+        <img src="airplane.jpg" alt="Airplane" class="side-image">
+    </div>
+</
